@@ -9,23 +9,23 @@ console.log("I just met you...");
 }
 
 
-function crazy() {
-var thisIsCrazy = function ()
-  function thisIsCrazy();
-
-
+function crazy(){
+  //fix the code in here:
+  var thisIsCrazy = function (){
     console.log("hey!!!")
   }
+  thisIsCrazy();
 }
 
-function sayMy() {
-  var name = "Kristin";
-
+function sayMyName() {
+  // fix the code in here:
+  var name = "Cricky";
 
   sayMy();
 
   function sayMy() {
+    var name = "Kristin";
+
     console.log(name);
-    var name = "Cricky";
   }
 }
